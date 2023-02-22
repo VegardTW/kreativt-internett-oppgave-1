@@ -1,0 +1,119 @@
+body {
+    margin: 0%;
+    background: #000000;
+}
+
+/* CSS for the top bar */
+.top-bar {
+    background-color: #000000;
+    color: #000000;
+    border-bottom: #f2f2f2;
+    border-width: 1px;
+    border-style: solid;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    font-size: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+.page-header {
+    padding-left: 110px;
+    padding-top: 30px;
+    font-family: Lato;
+    font-weight: 500;
+    color: #f2f2f2;
+
+}
+
+.menu-icon {
+    width: min-content;
+    align-content: last;
+
+}
+
+#menu {
+    /*width: -moz-fit-content;*/
+    padding-bottom 50px;
+    padding-top: 50px;
+    justify-content: end;
+    width: 110px;
+    padding-right: 89px;
+}
+
+.cls-1 {
+    scale: 150%;
+    fill: #f2f2f2;
+}
+
+/* CSS for the main content */
+.header {
+    padding: 20px 0px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 260px;
+    margin-left: 110px;
+    margin-right: 110px;
+    overflow: auto;
+    z-index: 100;
+}
+
+.main h2, .main p {
+    color: #f2f2f2;
+    font-family: Lato;
+}
+
+/* CSS for the left and right divisions */
+.left {
+    width: 50%;
+    /*background-color: #f2f2f2;*/
+    padding-right: 20px;
+    box-sizing: border-box;
+    /*float: left;*/
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    width: 50%;
+    /*background-color: #f2f2f2;*/
+    padding-left: 20px;
+    box-sizing: border-box;
+    /*float: right;*/
+}
+
+.left p:hover, .left h2:hover {
+    color: #999999;
+}
+
+/*.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+}
+.grid-item img{
+    width: 100%;
+    padding: 1px;
+}
+.grid-item {
+    width: fit-content;
+}*/
+
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Lato', sans-serif; */
